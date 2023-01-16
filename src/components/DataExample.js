@@ -10,7 +10,6 @@ export default function DataExample({ endpoint, title }) {
   return (
     <div>
       <span>
-        {" "}
         {title}:{" "}
         {(loading && "Загрузка...") ||
           (data && data.status) ||
